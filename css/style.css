@@ -1,0 +1,45 @@
+html, body{
+ height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px, 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header .logo {
+  text-align: left;
+  color:midnightblue;
+  font-size: 13px;
+}
+
+header .logo span {
+color: coral;
+}
+/*header .topbar{
+position: relative;
+align-items: right;
+}*/
+a, li {
+  list-style: none;
+  display: inline;
+  text-decoration:none ;
+  text-transform: uppercase;
+  color: black;
+  text-align:right;
+  font-size: 12 px;
+  padding: 10px 10px 10px ;
+}
